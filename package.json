@@ -2,6 +2,7 @@
   "name": "enzyme-to-json",
   "description": "convert enzyme wrapper to a format compatible with Jest snapshot",
   "main": "build/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "babel src -d build && babel src/serializer.js -o serializer.js",
     "prepublish": "yarn run build",
